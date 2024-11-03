@@ -34,7 +34,7 @@ body {
 
 .topimage {
     /* height: 20vh; */
-    background: url(images/image1.jpg) no-repeat center center;
+    background: url(/images/image1.jpg) no-repeat center center;
     background-size: cover;
     height: 160px;
     position: relative;
