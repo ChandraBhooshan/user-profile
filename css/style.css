@@ -1,0 +1,171 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.main {
+    /* position: relative; */
+    height: 600px;
+    width: 360px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    /* padding: 5px; */
+    /* margin: 20px auto; */
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    /* bottom: 50%; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.back {
+    position: absolute;
+    /* left: 15px;
+    top: 10px; */
+    left: 4%;
+    top: 5%;
+    color: white;
+    font-size: 24px;
+}
+
+.topimage {
+    /* height: 20vh; */
+    background: url(/images/image1.jpg) no-repeat center center;
+    background-size: cover;
+    height: 160px;
+    position: relative;
+}
+
+#topimage {
+    /* width: 100%; */
+    /* height: 100%; */
+    /* background-size: cover; */
+    /* background-position: center; */
+}
+
+.profilephoto {
+    height: 100px;
+    width: 100px;
+    color: gray;
+    background-color: gray;
+    /* background: url(default-pic.jpg) no-repeat center center; */
+    /* background-size: cover; */
+    background: url(/images/default.svg);
+    border-radius: 50%;
+    border: 5px solid rgb(242, 132, 131);
+    position: absolute;
+    /* bottom: -50%; */
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.data {
+    /* position: relative; */
+}
+
+.share-links {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.share-links .fa {
+    font-size: 24px;
+    margin: 5px 45px 0px;
+    padding: 5px 5px;
+    color: rgb(242, 132, 131);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px 10px;
+}
+
+.content #title {
+    font-size: 28px;
+    text-align: center;
+    /* margin: 15px; */
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.content #profession {
+    text-align: center;
+    color: rgb(242, 132, 131);
+}
+
+.content #about {
+    margin: 15px 0px 10px 0px;
+    /* padding: 0px 5px; */
+    /* align-items: justify; */
+    text-align: justify;
+}
+
+.reach {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 10px 0px;
+    font-size: 18px;
+}
+
+.reach h4 {
+    color: rgb(242, 132, 131);
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.reach label {
+    font-size: 16px;
+}
+
+.reach .follow {
+    background-color: rgb(242, 132, 131);
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.reach .follow:hover {
+    background-color: rgb(255, 161, 138);
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 2px; */
+}
+
+.posts img {
+    /* width: calc(33.333% - 2px); */
+    /* height: 100px; */
+    object-fit: cover;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    font-size: 24px;
+    color: rgb(242, 132, 131);
+    bottom: 0%;
+    width: 100%;
+    /* margin-bottom: 5px; */
+    padding: 10px 0px 10px 0px;
+}
+
+.footer i {
+    cursor: pointer;
+}
